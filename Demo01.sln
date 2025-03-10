@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo11WinApp", "Demo11WinAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo12WEBAPP", "Demo12WEBAPP\Demo12WEBAPP.csproj", "{14DA9DBA-BF39-482C-A993-F7C2F5F6BE9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo13WinAppExample", "Demo13WinAppExample\Demo13WinAppExample.csproj", "{1F8CB763-4DF6-4C20-B95C-31EA8C179026}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,12 @@ Global
 		{14DA9DBA-BF39-482C-A993-F7C2F5F6BE9A}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
 		{14DA9DBA-BF39-482C-A993-F7C2F5F6BE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14DA9DBA-BF39-482C-A993-F7C2F5F6BE9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F8CB763-4DF6-4C20-B95C-31EA8C179026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8CB763-4DF6-4C20-B95C-31EA8C179026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8CB763-4DF6-4C20-B95C-31EA8C179026}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8CB763-4DF6-4C20-B95C-31EA8C179026}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{1F8CB763-4DF6-4C20-B95C-31EA8C179026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8CB763-4DF6-4C20-B95C-31EA8C179026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
