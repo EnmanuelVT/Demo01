@@ -10,11 +10,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Amazon.Rekognition;
 using Amazon.Rekognition.Model;
+using log4net.Config;
+using log4net;
+using System.Reflection;
+using System.IO;
 
 namespace Demo13WinAppExample
 {
     public partial class frmMantenimientoCliente: Form
     {
+        private static readonly ILog log = LogManager.GetLogger(typeof(Program));
         public frmMantenimientoCliente()
         {
             InitializeComponent();
@@ -73,6 +78,18 @@ namespace Demo13WinAppExample
                         //{
                         //    txtSalida.Text += item.DetectedText.ToString() + "=" + item.Confidence.ToString() + "\r\n";
                         //} 
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            var logRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());
+            XmlConfigurator.Configure(logRepository, new FileInfo("log4net.config"));
+            log.Info("Esto es un mensaje de información");
+            log.Debug("Mensaje de debug");
+            log.Warn("Mensaje de advertencia");
+            log.Error("Logear un error");
+            log.Fatal("Logear un error crítico");
+            log.Error("Ocurrio un error", new System.Exception("Boom"));
         }
     }
 }

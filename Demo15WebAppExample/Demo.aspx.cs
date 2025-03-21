@@ -68,7 +68,7 @@ namespace Demo15WebAppExample
 
 
             }
-            imgFoto.ImageUrl = "/imagen/" + fuArchivo.FileName;
+            imgFoto.ImageUrl = MapPath("imagen") + fuArchivo.FileName;
         }
     }
 }
