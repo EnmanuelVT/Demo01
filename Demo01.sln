@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo16Eventvwr", "Demo16Eve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo17Log4Net", "Demo17Log4Net\Demo17Log4Net.csproj", "{E4C34A67-6782-4A83-885A-6688AA022BEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo18WindowsService", "Demo18WindowsService\Demo18WindowsService.csproj", "{3DBEE0EE-5DE5-40EB-A064-8ECC2F1C4AD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,12 @@ Global
 		{E4C34A67-6782-4A83-885A-6688AA022BEA}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
 		{E4C34A67-6782-4A83-885A-6688AA022BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4C34A67-6782-4A83-885A-6688AA022BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBEE0EE-5DE5-40EB-A064-8ECC2F1C4AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBEE0EE-5DE5-40EB-A064-8ECC2F1C4AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBEE0EE-5DE5-40EB-A064-8ECC2F1C4AD6}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBEE0EE-5DE5-40EB-A064-8ECC2F1C4AD6}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{3DBEE0EE-5DE5-40EB-A064-8ECC2F1C4AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBEE0EE-5DE5-40EB-A064-8ECC2F1C4AD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
