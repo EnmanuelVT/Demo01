@@ -22,6 +22,10 @@ namespace Demo19WindowsService
         {
             InitializeComponent();
         }
+        private static void DebugMode()
+        {
+            Debugger.Break();
+        }
 
         private static readonly ILog log = LogManager.GetLogger(typeof(Program));
         EventLog evt = new EventLog();
@@ -29,7 +33,8 @@ namespace Demo19WindowsService
 
         protected override void OnStart(string[] args)
         {
-                timer.Interval = int.Parse(ConfigurationManager.AppSettings["INTERVAL_SEGUNDO"]) * 1000;
+            DebugMode();
+            timer.Interval = int.Parse(ConfigurationManager.AppSettings["INTERVAL_SEGUNDO"]) * 1000;
             fswMonitor.Path = ConfigurationManager.AppSettings["RUTA"];
             timer.Elapsed += Timer_Elapsed;
             timer.Enabled = true;

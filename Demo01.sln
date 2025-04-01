@@ -42,6 +42,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo18WindowsService", "Dem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo19WindowsService", "Demo19WindowsService\Demo19WindowsService.csproj", "{8CA73E94-441F-49A8-A6CA-EC600CCBEB0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo20", "Demo20\Demo20.csproj", "{881ECAA9-D595-47AF-A54D-497A658964FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,12 @@ Global
 		{8CA73E94-441F-49A8-A6CA-EC600CCBEB0C}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
 		{8CA73E94-441F-49A8-A6CA-EC600CCBEB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CA73E94-441F-49A8-A6CA-EC600CCBEB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{881ECAA9-D595-47AF-A54D-497A658964FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881ECAA9-D595-47AF-A54D-497A658964FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881ECAA9-D595-47AF-A54D-497A658964FE}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{881ECAA9-D595-47AF-A54D-497A658964FE}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{881ECAA9-D595-47AF-A54D-497A658964FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881ECAA9-D595-47AF-A54D-497A658964FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
