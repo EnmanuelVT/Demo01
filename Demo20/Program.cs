@@ -11,24 +11,29 @@ namespace Demo20
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             using (HttpClient wc = new HttpClient())
             {
                 for (int i = 0; i < 1; i++)
                 {
-                    // Consulta padron
+                    #region Consulta Padron
+                    // var json = await wc.GetStringAsync("https://compulaboratoriomendez.com/lib/?Key=567811&MUN_CED=001&SEQ_CED=0078278&VER_CED=8");
+                    var json = await wc.GetStringAsync("https://compulaboratoriomendez.com/lib/?Key=567811&MUN_CED=001&SEQ_CED=0078278&VER_CED=8");
+                    #endregion
+
                     Console.WriteLine(json);
+
                     var js = JsonConvert.SerializeObject(json);
 
-                    var k = json.Replace('[', '').Replace(']', ' ');
+                    var k = json.Replace('[', ' ').Replace(']', ' ');
                     var j = JObject.Parse(k);
 
                     dynamic data = JObject.Parse(k);
-                    Console.WriteLine(data.Nombres);
+                    Console.WriteLine(data.NOMBRES);
 
-                    var myDetails = JsonConvert.DeserializeObject<Padron>(k);
-                    Console.WriteLine(myDetails.NOMBRES);
+                    var myDetails = JsonConvert.DeserializeObject<Cliente>(k);
+                     Console.WriteLine(myDetails.Nombres); 
 
                     Console.WriteLine(j["NOMBRES"]);
                     Console.WriteLine(j["APELLIDO1"]);
