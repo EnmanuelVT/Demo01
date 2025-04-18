@@ -1,4 +1,4 @@
-﻿namespace Messages
+﻿namespace Sales.Messages
 {
     public class PlaceOrder :
         ICommand

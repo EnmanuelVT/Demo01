@@ -1,5 +1,5 @@
 ﻿using ClientUI;
-using Messages;
+using Sales.Messages;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
